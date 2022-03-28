@@ -1,0 +1,774 @@
+/* 
+Theme Name: Bootstrap 4 Sass
+Description: Bootstrap 4 with Sass
+*/
+
+// import files
+@import "import";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Francois+One|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
+
+/* GENERAL STYLES
+-------------------------------------------------*/
+body {
+    background: $white;
+}
+
+.set-font{
+    font-family: 'Roboto Condensed';
+}
+
+caption {
+    caption-side:top;
+    color: $primary-shade;
+    font-size: 18px;
+}
+
+.list-group {
+    padding-bottom: 1rem;
+}
+
+.view-frontpage { 
+    display:none; 
+}
+
+.remove-padding ul{
+    padding-left: 0;
+}
+
+.views-field-field-year {
+    white-space: nowrap;
+}
+
+.views-field-field-start {
+    white-space: nowrap;
+}
+
+#main {
+    padding-top: 2rem;
+}
+
+/* COLORS 
+--------------------------------------------------*/
+
+a {
+    color: $accent-shade;
+}
+
+.bg-inverse {
+    background: $footer-bg !important;
+}
+
+.site-footer {
+    background: $footer-bg !important;
+}
+
+.site-footer a:hover.footer-email , a:focus.footer-email {
+    color: #fff;
+}
+
+.menu--main li a {
+    color: $primary-shade;
+}
+
+.menu--account li a {
+    color: $primary-shade;
+}
+
+.site-name-slogan a {
+    text-decoration: none;
+}
+
+.card-group img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.card-group .field--type-image {
+    margin: 0
+}
+
+.slick {
+    width: 100%;
+}
+
+.slick>div {
+    margin: 0 15px;
+}
+
+/* Typography
+--------------------------------------------------*/
+
+h1 {
+    font-size: $font-size-h1;
+}
+
+h3 {
+    font-size: $font-size-h3;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-size: $font-size-h2;
+    margin-top: 1rem;
+}
+
+h4 {
+    font-size: $font-size-h4;
+    margin-top: 1rem;
+}
+
+p {
+    font-size: $font-size-base;
+    display: block;
+}
+
+.important-message {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 1rem;
+    border-left-color: #C9243D;
+    border-left-width: 5px;
+    background-color: #fefafb;
+    font-size: $font-size-base;
+}
+
+.warning-message {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 1rem;
+    border-left-color: $yellow;
+    border-left-width: 5px;
+    background-color: #fff;
+    font-size: $font-size-base;
+}
+
+.info-message {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 1rem;
+    border-left-color: $cyan;
+    border-left-width: 5px;
+    background-color: #fff;
+    font-size: $font-size-base;
+}
+
+
+li {
+    font-size: $font-size-base;
+}
+
+td {
+    font-size: $font-size-base;
+}
+
+th {
+    font-size: $font-size-base;
+}
+
+.caption {
+    font-size: 1.2rem;
+    color: $primary-shade;
+    padding-top: 1rem;
+}
+
+a {
+    font-weight: bold;
+    color: #b01700;
+}
+
+/* EDIT BAR
+-------------------------------------------------*/
+
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        max-width: 75%;
+    }
+}
+
+/* Footer
+--------------------------------------------------*/
+
+.footer-btn {
+    white-space: normal;
+    word-wrap: break-word;
+    font-family: "Roboto";
+}
+
+footer {
+    font-size: 1.5rem;
+    line-height: 120%;
+    clear: both;
+    width: 100%;
+    border-top: 10px solid #b01700;
+    color: #fff;
+    border-bottom: 20px solid #292929;
+}
+
+.footer-address {
+    padding-left: 1.25em;
+    color: #939393;
+    border-left: 2px solid #494949;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+}
+
+.faculty-footer {
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.site-footer a {
+    color: #fff !important;
+    font-weight: normal !important;
+}
+
+.footer-q {
+    text-align: center;
+    font-size: 1rem;
+    font-style: oblique;
+}
+
+.footer-attr {
+    text-align: center;
+    font-size: 0.9rem;
+    font-style: oblique;
+    color: #999999;
+}
+
+@media (max-width: 575.98px) {
+    .footer-address {
+        border-left: none;
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .footer-links {
+        padding-left: 0rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .footer-address {
+        padding-left: 0rem;
+        text-align: center;
+    }
+}
+
+.site-footer {
+    background: #292929 !important;
+    padding-bottom: 0rem;
+}
+
+#block-umd-bootstrap-sass-facultyfooter {
+    width: 100% !important;
+}
+
+#block-ampfooterlogout {
+    width: 100% !important;
+}
+
+.footer-link {
+    color: #fff !important;
+    font-size: 1rem;
+    font-weight: normal !important;
+    &:hover {
+        color: #fff !important;
+        text-decoration: underline;
+        font-weight: normal !important;
+    }
+}
+
+.footer-logo-addr {
+    margin-right: auto;
+}
+
+.footer-links {
+    white-space: nowrap;
+}
+
+/* Superfish
+--------------------------------------------------*/
+
+ li.menuparent li, li.menuparent ul {
+    background: #fff;    
+
+
+  }
+
+    ul.menuparent ul, ul.menuparent ul {
+    background: #fff;    
+
+
+  }
+
+ul.sf-menu a, ul.sf-menu span.nolink {
+    padding: 0.4em .7em;
+    color: #2e2e2e;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+ul.sf-menu a:hover{
+    text-decoration: none;
+    background: #eee;
+}
+
+
+li.sf-depth-2 a:focus, li.sf-depth-2 a:active, li.sf-depth-2 a:hover{
+background:#eee;
+text-decoration: none;
+}
+
+ul.sf-menu .sf-with-ul {
+    padding-right: 2.3em;
+}
+
+ul.sf-menu .sf-sub-indicator::after {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0d7";
+    left: 0px;
+    line-height: 1;
+    position: absolute;
+    text-indent: 0px;
+    top: 0px;
+}
+
+#block-main .sf-accordion-toggle, #block-umd-bootstrap-sass-facultyactivity .sf-accordion-toggle{
+    display:none;
+}
+
+#superfish-main-accordion, #superfish-faculty-activity-accordion {
+    left:auto !important;
+    top:auto !important;
+    display: block;
+    position: relative;
+}
+
+.sf-hidden {
+    height: auto !important;
+    overflow: inherit !important;
+    width: 100% !important;
+    display: block !important;
+}
+
+ul.sf-menu.sf-accordion {
+    display: block !important;
+    position: relative !important;
+    width: 100% !important;
+}
+
+/* Sidebar
+--------------------------------------------------*/
+
+.sidebar .block {
+    border-style: none;
+}
+
+.field--name-field-links .field__item a{
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    color: #646464;
+    font-family: 'Open Sans';
+    border-left: 2px solid transparent;
+    padding-left: $sidebar-item-padding;
+    font-size: 0.8rem;
+    &:hover {
+        border-left: 2px solid $primary-shade;
+        text-decoration-line: none;
+        color: $primary-shade !important;
+    }
+    position:relative;
+}
+
+.field--name-field-links .field__item a:after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f35d";
+    position: absolute;
+    text-indent: 0.5rem;
+    bottom: 0.1rem;
+ }
+
+.field--name-field-files .field__item a{
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    color: #646464;
+    font-family: 'Open Sans';
+    border-left: 2px solid transparent;
+    padding-left: $sidebar-item-padding;
+    font-size: 0.8rem;
+    &:hover {
+        border-left: 2px solid $primary-shade;
+        text-decoration-line: none;
+        color: $primary-shade !important;
+    }
+    position:relative;
+ }
+
+ .field--name-field-files .field__item a:after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f1c1";
+    position: absolute;
+    text-indent: 0.5rem;
+    bottom: 0.1rem;
+ }
+
+.file--application-pdf {
+    background-image:none;
+ }
+
+.file {
+    padding-left: 0rem;
+}
+
+/* Table of Contents
+--------------------------------------------------*/
+
+ol.circle {
+    list-style-type: none;
+    color: #646464;
+}
+
+
+ol.circle a{
+    color: #646464 !important;
+    font-family: 'Open Sans';
+    &:hover{
+        text-decoration-line: none;
+        color: $primary-shade !important;
+    }
+
+}
+
+ol.circle li{
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: $sidebar-item-padding;
+    margin-left: -2.7em;
+    font-size: 0.8rem;
+    &:hover {
+        border-left: 2px solid $primary-shade;
+        padding-left: $sidebar-item-padding-minus;
+    }
+    &:active {
+        border-left: 2px solid $primary-shade;
+    }
+}
+
+ol.none a{
+    color: #646464 !important;
+    font-family: 'Open Sans';
+    &:hover{
+        text-decoration-line: none;
+        color: $primary-shade !important;
+    }
+}
+
+ol.none li{
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: $sidebar-item-padding;
+    margin-left: -2.7em;
+    font-size: 0.8rem;
+    &:hover {
+        border-left: 2px solid $primary-shade;
+        padding-left: $sidebar-item-padding-minus;
+    }
+    &:active {
+        border-left: 2px solid $primary-shade;
+    }
+} 
+
+/* Staff Page
+-----------------*/
+
+.staff-name {
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed';
+  color: $primary-shade;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 0.1em;
+  margin-bottom: 0rem;
+}
+
+.hline-bottom {
+    padding-bottom: 1em;
+    border-bottom: 2px solid #eee; /* whichever color you prefer */
+}
+
+.staff-position {
+  font-family: 'Open Sans';
+  margin-bottom: 0.2rem;
+}
+
+/* Awards
+-----------------*/
+
+.award-body p{
+    text-align:justify;
+}
+
+/* Professional Track
+-----------------*/
+
+.question {
+    font-family: 'Roboto Condensed';
+    cursor: pointer;
+    font-weight: 500;
+    color: #000;
+    font-size: 1rem;
+    margin-bottom: -0.4rem;
+    text-decoration-line: none;
+    text-align: left;
+    &:hover {
+        text-decoration-line: none;
+    }
+    &:focus {
+        text-decoration-line: none;
+    }
+}
+
+.answer * {
+    margin-bottom:0rem;
+}
+
+/* Slideshow
+-----------------*/
+
+/* .slide__caption {
+  position: absolute;
+  z-index: 2;
+}
+
+.slide__media {
+  position: relative;
+  display: block;
+} 
+
+.slide--caption--split-left .slide__caption {
+    width: 100%; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000;
+} */
+
+.slide--caption--split-left .slide__caption,
+  .slide--caption--split-right .slide__caption {
+    left: 0;
+    position: relative;
+    top: 10%;
+    width: 10%;
+    padding: 2rem;
+  }
+
+  .slick--skin--split .slide--caption--split-left .slide__media,
+  .slick--skin--split .slide--caption--split-zebra:nth-child(odd) .slide__media {
+    float: left;
+    width: 68%;
+  }
+
+  .slick--skin--split .slide--caption--split-left .slide__constrained > .slide__caption,
+  .slick--skin--split .slide--caption--split-zebra:nth-child(odd) .slide__constrained > .slide__caption,
+  .slick--skin--split .slide--caption--split-left .slide__caption,
+  .slick--skin--split .slide--caption--split-zebra:nth-child(odd) .slide__caption {
+    margin-left: 68%;
+    width: auto;
+  }
+
+  .slick--skin--split .slide--caption--split-left .slide__caption,
+  .slick--skin--split .slide--caption--split-zebra:nth-child(odd) .slide__caption {
+    margin-left: 68%;
+    text-align: left;
+    width: auto;
+    color: #000;
+  }
+
+
+.slideshow-title {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    font-family: 'Roboto';
+    color: #000;
+}
+
+.slideshow-body {
+    margin-bottom: 0.2rem;
+    color: #000;
+    text-align: justify;
+}
+
+.slide__content {
+    margin-bottom: 1rem;
+    background: #transparent;
+}
+
+/* Frontpage
+-----------------*/
+
+.front-quote {
+    border-left-color: $red;
+    border-left-width: 5px;
+    background-color: #fff;
+    font-size: 1.1rem;
+}
+
+/* Book
+----------------*/
+
+.field--name-field-last-updated {
+    color: #808080;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+}
+
+.node__meta {
+    display: none;
+}
+
+.block-book-navigation ul.menu a{
+    color: #646464 !important;
+    font-family: 'Open Sans';
+    &:hover{
+        text-decoration-line: none;
+        color: $primary-shade !important;
+    }
+    list-style-type: none;
+}
+
+.block-book-navigation ul.menu li{
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: $sidebar-item-padding;
+    margin-left: -2.7em;
+    font-size: 0.8rem;
+    &:hover {
+        border-left: 2px solid $primary-shade;
+        padding-left: $sidebar-item-padding-minus;
+    }
+    &:active {
+        border-left: 2px solid $primary-shade;
+    }
+    list-style-type: none;
+}
+
+.book-navigation ul.menu a{
+    color: #646464 !important;
+    font-family: 'Open Sans';
+    &:hover{
+        text-decoration-line: none;
+        color: $primary-shade !important;
+    }
+    list-style-type: none;
+}
+
+.book-navigation ul.menu li{
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: $sidebar-item-padding;
+    margin-left: -2.7em;
+    font-size: 0.8rem;
+    &:hover {
+        border-left: 2px solid $primary-shade;
+        padding-left: $sidebar-item-padding-minus;
+    }
+    &:active {
+        border-left: 2px solid $primary-shade;
+    }
+    list-style-type: none;
+}
+
+ul.book-pager a{
+    color: #646464 !important;
+    font-family: 'Open Sans';
+    list-style-type: none;
+    &:hover {
+        color: $primary-shade !important;
+        text-decoration: none;
+    }
+}
+
+ul.book-pager li{
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: none;
+    font-size: 0.8rem;
+    list-style-type: none;
+}
+
+ul.book-pager .book-pager__item--center::after {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f106";
+    left: 0px;
+    color: #646464;
+    line-height: 1;
+    position: relative;
+    text-indent: 0px;
+    top: 0px;
+}
+
+.book-navigation {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+/*
+Search
+*/
+
+.form-inline.navbar-form.justify-content-end {
+    width: 25rem;
+}
+
+@media (max-width: 1244.98px) {
+    .form-inline.navbar-form.justify-content-end {
+        display:none;
+    }
+}
+
+.form-actions {
+    margin-left: 0.2rem;
+}
+
+
+
+
+/*
+Operation Links
+*/
+
+.js td .dropbutton-multiple {
+    padding-right: 0.5em;
+}
+
+/*
+Card Button
+*/
+
+.card-button a{
+    color:#292929;
+}
+
+.card-button:hover{
+    background-color: #b01700;
+    color:#fff;
+}
+
+.card-button a:hover{
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
