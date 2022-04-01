@@ -10952,7 +10952,7 @@ th {
   color: #b01700;
   padding-top: 1rem; }
 
-a {
+.content a:not(.btn):not(.nav-link) {
   font-weight: bold;
   color: #b01700; }
 
