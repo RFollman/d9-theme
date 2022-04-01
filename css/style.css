@@ -10952,7 +10952,7 @@ th {
   color: #b01700;
   padding-top: 1rem; }
 
-a {
+#main a:not(.btn) {
   font-weight: bold;
   color: #b01700; }
 
