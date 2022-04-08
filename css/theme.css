@@ -354,6 +354,31 @@ Card Button
 .card-button a:hover {
   color: #fff; }
 
+/*
+Menu
+*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: #666666;
+}
+
+ul a {
+    font-family: 'Open Sans';
+    padding: 0.4rem .7rem !important;
+}
+
+ul a:hover {
+    background: #eeeeee;
+}
+
+.dropdown-item {
+    padding: 0.4rem 1.3rem !important;
+}
+
+.dropdown-item:hover {
+    background: #eeeeee;   
+}
+
 
 
 
