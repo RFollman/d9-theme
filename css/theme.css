@@ -223,6 +223,14 @@ footer {
 .footer-links {
   white-space: nowrap; }
 
+@media (max-width: 35.99875rem) {
+  .justify-content-sm-center {
+    -webkit-box-pack: center !important;
+    -webkit-justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important; } 
+}
+
 /* Superfish
 --------------------------------------------------*/
 li.menuparent li, li.menuparent ul {
