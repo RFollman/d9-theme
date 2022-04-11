@@ -362,6 +362,14 @@ Card Button
 .card-button a:hover {
   color: #fff; }
 
+.card-button a:hover {
+    transition: all 0.3s ease;    
+}
+
+.card-button a{
+    font-weight: normal;
+}
+
 /*
 Menu
 */
