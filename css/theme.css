@@ -366,6 +366,14 @@ Card Button
     transition: all 0.3s ease;    
 }
 
+.card-button:hover {
+    transition: all 0.3s ease;
+}
+
+.card-button a:hover {
+    text-decoration: none;
+}
+
 .card-button a{
     font-weight: normal;
 }
