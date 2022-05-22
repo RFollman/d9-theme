@@ -519,44 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "css/theme.css",
-			"settings":
-			{
-				"buffer_size": 6395,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					11,
-					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"BQAAAMEUAAAAAAAAwhQAAAAAAAAAAAAAwhQAAAAAAADEFAAAAAAAAAAAAADEFAAAAAAAAMUUAAAAAAAAAAAAAMUUAAAAAAAAxxQAAAAAAAAAAAAAwhQAAAAAAADCFAAAAAAAAAIAAAAgIA",
-					"AQAAAAAAAAABAAAAwRQAAAAAAADBFAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					12,
-					1,
-					"left_delete",
-					null,
-					"AQAAAMMUAAAAAAAAwxQAAAAAAAACAAAAICA",
-					"AQAAAAAAAAABAAAAxRQAAAAAAADFFAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					13,
-					1,
-					"paste",
-					null,
-					"AQAAAMMUAAAAAAAA4RUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAwxQAAAAAAADDFAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -569,6 +531,42 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"plai",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"red",
+				"Package Control: Enable Debug Mode"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"css",
 				"Set Syntax: CSS"
@@ -590,10 +588,6 @@
 				"Set Syntax: LaTeX"
 			],
 			[
-				"rei",
-				"Indentation: Reindent Lines"
-			],
-			[
 				"ht",
 				"Set Syntax: HTML"
 			],
@@ -608,10 +602,6 @@
 			[
 				"yaml",
 				"Set Syntax: YAML"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
 			],
 			[
 				"php",
@@ -660,12 +650,24 @@
 	"expanded_folders":
 	[
 		"/Users/anupsathya/DrupalNew/d9-theme",
-		"/Users/anupsathya/DrupalNew/d9-theme/css"
+		"/Users/anupsathya/DrupalNew/d9-theme/css",
+		"/Users/anupsathya/DrupalNew/d9-theme/templates"
 	],
 	"file_history":
 	[
-		"/Users/anupsathya/DrupalNew/d9-theme/css/style.css",
+		"/Users/anupsathya/DrupalNew/d9-theme/templates/menu.html.twig",
 		"/Users/anupsathya/DrupalNew/d9-theme/css/theme.css",
+		"/Users/anupsathya/DrupalNew/amp-umd/web/themes/custom/umd_bootstrap_sass/templates/menu--main.html.twig",
+		"/Users/anupsathya/DrupalNew/amp-umd/web/themes/custom/umd_bootstrap_sass/templates/menu.html.twig",
+		"/Users/anupsathya/DrupalNew/contactconversion.py",
+		"/Users/anupsathya/Downloads/contacts.json",
+		"/Users/anupsathya/Downloads/Nirupama Rajan.txt",
+		"/Users/anupsathya/DrupalNew/d9-theme/templates/menu--main.html.twig",
+		"/Users/anupsathya/DrupalNew/amp-umd/web/themes/custom/umd_bootstrap_sass/js/custom-js.js",
+		"/Users/anupsathya/DrupalNew/amp-umd/web/themes/composer/bootstrap_barrio/templates/navigation/menu--main.html.twig",
+		"/Users/anupsathya/DrupalNew/amp-umd/web/themes/composer/bootstrap_barrio/templates/navigation/menu.html.twig",
+		"/Users/anupsathya/DrupalNew/d9-theme/templates/menu--te-menu.html.twig",
+		"/Users/anupsathya/DrupalNew/d9-theme/css/style.css",
 		"/Users/anupsathya/DrupalNew/d9-theme/umd_bootstrap_sass.libraries.yml",
 		"/Users/anupsathya/DrupalNew/site-specific-css/faculty.css",
 		"/Users/anupsathya/DrupalNew/amp-umd/web/themes/custom/umd_bootstrap_sass/css/style.css",
@@ -680,7 +682,6 @@
 		"/Users/anupsathya/DrupalNew/amp-umd/web/themes/custom/umd_bootstrap_sass/templates/page.html.twig",
 		"/Users/anupsathya/DrupalNew/amp-umd/web/themes/custom/umd_bootstrap_sass/templates/menu--te-menu.html.twig",
 		"/Users/anupsathya/DrupalNew/faculty-umd/web/themes/composer/umd_bootstrap_sass/css/style.css",
-		"/Users/anupsathya/Downloads/Nirupama Rajan.txt",
 		"/Users/anupsathya/DrupalNew/d9-theme/site-specific-css/faculty.css",
 		"/Users/anupsathya/DrupalNew/faculty-umd/composer.json",
 		"/Users/anupsathya/DrupalNew/umd-bootstrap-theme/composer.json",
@@ -781,21 +782,11 @@
 		"/L/htdocs/ci-rpf313/application/delay/models/Lv_units.php",
 		"/L/htdocs/ci-rpf313/application/delay/models/Lv_faculty.php",
 		"/L/htdocs/ci-rpf313/application/delay/models/Lv_request.php",
-		"/L/htdocs/ci-rpf313/application/delay/controllers/Users.php",
-		"/L/htdocs/ci-rpf313/application/delay/controllers/Leaves.php",
-		"/L/htdocs/ci-rpf313/application/delay/controllers/Utility.php",
-		"/L/htdocs/ci-rpf313/application/delay/core/MY_Model.php",
-		"/L/htdocs/ci-rpf313/application/delay/views/list-leaves.php",
-		"/L/htdocs/ci-rpf313/application/delay/views/printRow.php",
-		"/P/htdocs/ci-rpf313/application/apa/config/config.php",
-		"/Z/htdocs/ci-rpf313/application/delay/models/Lv_faculty.php",
-		"/Z/htdocs/ci-rpf313/application/delay/controllers/Users.php",
-		"/Z/htdocs/ci-rpf313/application/delay/config/config.php",
-		"/Z/htdocs/ci-rpf313/application/leave/models/Lv_phrdata.php"
+		"/L/htdocs/ci-rpf313/application/delay/controllers/Users.php"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -809,6 +800,13 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"saree",
+			"direct ",
+			"direct",
+			"cock",
+			"h-100\" href",
+			"menuitem\"",
+			"<a",
 			"active"
 		],
 		"highlight": true,
@@ -831,38 +829,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "css/theme.css",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6395,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5035,
-								5035
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4488.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1471,7 +1437,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 188.0,
+	"side_bar_width": 173.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
