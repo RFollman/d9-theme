@@ -1,5 +1,12 @@
 try {
     document.getElementById("edit-keys").setAttribute("placeholder", "Search...");
+}
+
+catch {
+    console.log("No search block to replace");
+}
+
+try{
 
     if (document.getElementById("block-headerimage") == null)
     {
@@ -7,9 +14,13 @@ try {
       rect.style.marginTop = "5%";
   }
 
+}
 
+catch {
+    console.log("No header image to check");
+}
 
-
+try {
   $(document).ready(function(){
     $(".dropdown").hover(function(){
         var dropdownMenu = $(this).children(".dropdown-menu");
@@ -21,5 +32,5 @@ try {
 }
 
 catch {
-    console.log("Some elements not found");
+    console.log("No dropdown menu to fix");
 }
